@@ -1,34 +1,19 @@
-const webpack = require('webpack');
-const path = require('path');
-
 module.exports = {
+  mode: 'production',
+
   // set this to your entry point
   entry: "./src/js/main.js",
 
   // change this to your output path
   output: {
-    path: path.resolve(__dirname,'/dist/js/'),
-    filename: "app.js",
-    publicPath: "/assets/"
+    path: __dirname+'/dist/js',
+    filename: "app.js"
   },
 
   // create a map file for debugging
   devtool: 'source-map',
 
   // configure the loaders
-  module: {
-    loaders: [
-      {
-        test: /.jsx?$/,
-        exclude: /node_modules/,
-        loader: "babel",
-        query: {
-          presets: ['es2015', 'react'],
-          compact: false
-        }
-      }
-    ]
-  },
 
   ///////////  uncomment this for production ////////////////
   // plugins: [

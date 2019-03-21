@@ -1,5 +1,4 @@
  <!-- Javascript -->
- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-
- <script src="assets/dist/js/main.js"></script>
+ <script src="dist/js/app.js"></script>
+ <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
