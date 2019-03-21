@@ -19,8 +19,8 @@
     <meta name="generator" content="Manufactured Code">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="src/css/main.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/dist/css/main.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
     <!-- IOS -->
     <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0, user-scalable=no">
